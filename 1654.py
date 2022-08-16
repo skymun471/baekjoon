@@ -15,9 +15,9 @@ while start <= end:
     for i in lan:
         result += int(i/mid)
 
-    if result >= n:
+    if result >= n:  #중간 값보가 큰 값일때
         start = mid + 1
     else:
-        end = mid - 1
+        end = mid - 1 #중간 값보다 작은 값일때
 
 print(end)
